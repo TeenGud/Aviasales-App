@@ -1,0 +1,46 @@
+.widgets {
+  display: flex;
+  width: 502px;
+  height: 50px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.widget_button {
+  background: white;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #4a4a4a;
+  width: 168px;
+  height: 50px;
+  border-radius: 2px;
+  transition: 0.3s all;
+}
+.widget_button:hover {
+  background: #2196f3;
+  color: white;
+}
+
+.widget_button_first {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.widget_button_second {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.widget_button_third {
+}
+
+@media screen and (max-width: 520px) {
+  .widgets {
+    width: 360px;
+  }
+  .widget_button {
+    width: 120px;
+  }
+}
