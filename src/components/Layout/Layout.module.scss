@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+@media screen and (max-width: 780px) {
+  .content {
+    flex-direction: column;
+    align-items: start;
+  }
+}
